@@ -1,0 +1,1 @@
+import React from 'react'; import { EventForm } from '../components/EventForm'; export default { title: 'Calendar/EventForm' }; export const Default = () => <div style={{width:400}}><EventForm initial={null} onSave={()=>{}} onDelete={()=>{}} /></div>;

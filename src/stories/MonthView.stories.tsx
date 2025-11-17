@@ -1,0 +1,1 @@
+import React from 'react'; import { MonthView } from '../components/MonthView'; import { sampleEvents } from '../sample-data'; export default { title: 'Calendar/MonthView' }; export const Default = () => <div style={{width:1000}}><MonthView date={new Date()} events={sampleEvents} onDayClick={()=>{}} onEventClick={()=>{}} /></div>;
